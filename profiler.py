@@ -2,7 +2,7 @@ import pandas as pd
 from ydata_profiling import ProfileReport
 
 # Load the data
-df = pd.read_csv('data/raw/NYPD_Arrests_Data__Historic_.csv')
+df = pd.read_csv('data/raw/NYPD_Arrests_Data__Historic_reduced.csv')
 
 # Generate profiling report
 profile = ProfileReport(df, 
